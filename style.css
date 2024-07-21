@@ -1,0 +1,107 @@
+@font-face { font-family:fontA;
+    src:url(sky.ttf);}
+    body {
+        background-color: #e0effd;
+      }
+header {
+    background-color: rgb(89, 131, 167);
+	color: white ;
+	text-align: center;
+    font-size: xxx-large;
+	text-shadow: 2px 2px black;
+}
+header > section {
+	padding: 10% 10% 9% 10%
+}
+#img1 { 
+    border: 5px solid white;
+    width: 20%; 
+    float: left;
+    margin-top: -8.5%;
+}
+  
+.gallery {
+    margin: auto; 
+    width: fit-content; 
+  }
+  
+  figure img {
+    max-width: 100%; 
+    height: auto; 
+    border: 5px solid white;
+  }
+  
+  figure figcaption {
+    text-align: center; 
+    margin-top: 10px; 
+  }
+  
+
+
+#T {
+    color: #ff9900;
+	text-shadow: 2px 2px #00000000;
+	font-size: 30px;
+    text-align: center;
+    font-family:fontA;
+}
+
+#ref {
+    text-shadow: 2px 2px #00000000;
+	font-size: 30px;
+    text-align: center;
+    font-family:fontA;
+}
+
+footer {
+	background: #0c343d;
+	font-size: 1.1em;
+	padding: 1em 10% 1em 10%;
+	color: white;
+	
+}
+footer > section:first-child{
+	float: right;
+	width: 17%;
+	color: white;
+}
+footer > section > a:link, footer > section > a:visited {
+	text-decoration: none;
+	color: white;
+}
+#icon {	height: 1.1em;
+    vertical-align: top;
+}
+#imgR {
+    border: 20px solid #e0effd;
+    width: 30%;
+	float: right;
+	margin-right: 3px;
+	image-rendering: high-quality; 
+	image-rendering: smooth;
+	
+}
+
+#pp2 {
+	text-indent: 50px;
+	text-align: justify;
+	font-size: 50px;
+	text-shadow: 2px 2px #D3D3D3;
+	font-family:fontA;
+	border-bottom: solid #191970;
+}
+
+#pp3 {
+    
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 2px 2px #D3D3D3;
+	font-family:fontA;
+}
+#buttonR1 {
+    float: right;
+	text-indent: 5px;
+	text-align: right;
+	font-size: 50px;
+	font-family:fontA;
+}
